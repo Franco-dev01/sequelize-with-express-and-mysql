@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/stylesheets/bootstrap-3.3.6/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="/stylesheets/bootstrap-3.3.6/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/stylesheets/bootstrap-3.3.6/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/stylesheets/bootstrap-3.3.6/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/css/style.css">
+
+
+    <title>Node js express mongoDB CRUD</title>
+</head>
+<body class="big-info">
+        <div class="row">
+              
+            <div class=".col-md-6 offset-md-3 " style="background-color: #fff; margin-top: 25px; padding: 20px;">
+            <p>  </p>
+                
+            <form autocomplete="off" action="/" method="POST" class="container form1">
+                <input type="hidden" name="type" value="person"> 
+            <div class="form-group ">
+                <label for="">nom complet</label>
+                <input type="text" class="form-control" name="nom" placeholder="entre votre nom complet" >
+            </div>
+
+            <div class="form-group">
+               
+                <label for="">Email</label><br>
+                <input type="text" class="form-control" name="email" placeholder="Email"  >
+            </div>
+            
+
+            <div class="form-row">
+                <label for="">Mobile</label>
+                <input type="text" class="form-control" name="mobile" placeholder="Mobile"  >
+            </div>
+
+            <div class="form-group">
+                <label for="">ville</label>
+                <input type="text" class="form-control" name="ville" placeholder="entre la ville" >
+            </div>
+
+            <div class="form-group">
+                  
+                <button type="submit" class="btn btn-info"> <i class="glyphicon glyphicon-database"></i> Submit</button>   
+               <a href="/admin"> <i class="glyphicon glyphicon-eye-open"></i> view all users  </a>          
+         
+            </div>
+    </form>
+
+
+
+
+    <div class=".col-md-6 offset-md-3 fs " style="background-color: #fff; margin-top: 25px; padding: 20px;">
+        <p>  </p>
+            
+
+
+
+        <form autocomplete="off" action="/" method="POST" class="container">
+            <input type="hidden" name="type" value="maison">
+        <div class="form-group ">
+            <label for="">Nom Maison</label>
+            <input type="text" class="form-control" name="maison" placeholder="entre le nom de la maison" >
+        </div>
+
+        <div class="form-group">
+           
+            <label for="">Superficie</label><br>
+            <input type="text" class="form-control" name="superficie" placeholder="entre la superficie de la maison"  >
+        </div>
+        
+
+        <div class="form-row">
+            <label for="">Prix</label>
+            <input type="text" class="form-control" name="prix" placeholder="entre le prix de la maison"  >
+        </div>
+
+        <div class="form-group">
+            <label for="">Locatisation</label>
+            <input type="text" class="form-control" name="localisation" placeholder="entre les cordonnées de la maison" >
+        </div>
+
+        <div class="form-group">
+              
+            <button type="submit" class="btn btn-info"> <i class="glyphicon glyphicon-database"></i> Submit</button>   
+           <a href="/admin"> <i class="glyphicon glyphicon-eye-open"></i> voir la liste  </a>          
+     
+        </div>
+</form>
+
+
+
+
+        </div>
+    
+</body>
+</html>

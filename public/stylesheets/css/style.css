@@ -1,0 +1,24 @@
+.big-info{
+   
+    background-color: rgb(41, 209, 159);
+}
+form{
+    width: 400px !important;
+    height: 400px !important;
+}
+.offset-md-3{
+    width: 500px !important;
+    height: 450px !important;
+    margin-left: 100px !important;
+    
+}
+
+
+.fs{
+    margin-left: 400px !important;
+    margin-top: -430px !important;
+    margin-left: 500px !important;
+}
+
+
+
